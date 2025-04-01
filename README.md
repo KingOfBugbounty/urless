@@ -1,30 +1,26 @@
-Here is the updated README with the acknowledgment included inside the document:
+# 🛠️ Urlextract
 
----
+Urlextract is a simple tool developed in Go to test potential vulnerabilities in URL paths. 🌐 It progressively removes paths from a URL, leaving only the domain and generating variations with different directory depths.
 
-# Urless
-
-Urless is a simple tool developed in Go to test potential vulnerabilities in URL paths. It progressively removes the paths from a URL, leaving only the domain and generating variations with different directory depths.
-
-## Installation
+## 📥 Installation
 
 ```bash
-git clone https://github.com/KingOfBugbounty/urless.git
-cd urless
-go build -o urless
+git clone https://github.com/yourusername/urlextract.git
+cd urlextract
+go build -o urlextract
 ```
 
-## Usage
+## 🚀 Usage
 
-Urless receives URLs via `stdin` and prints variations with different path levels.
+Urlextract receives URLs via `stdin` and prints variations with different path levels.
 
-### Example Usage
+### 🔍 Example Usage
 
 ```bash
-echo "https://example.com/dir1/dir2/dir3" | ./urless
+echo "https://example.com/dir1/dir2/dir3" | ./urlextract
 ```
 
-### Expected Output
+### 📌 Expected Output
 
 ```
 https://example.com
@@ -33,10 +29,10 @@ https://example.com/dir1/dir2
 https://example.com/dir1
 ```
 
-## Example with multiple URLs
+## 📑 Example with Multiple URLs
 
 ```bash
-cat urls.txt | ./urless
+cat urls.txt | ./urlextract
 ```
 
 Where `urls.txt` contains:
@@ -57,14 +53,11 @@ https://another.com/x/y
 https://another.com/x
 ```
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
+## 🙌 Acknowledgments
 
-A special thanks to @erickfernandox for the insightful vision and contribution to the development of this tool!
+Special thanks to @erickfernandox for the valuable insights and contributions to this project! 🎉
 
----
-
-Let me know if you need further changes!
