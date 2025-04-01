@@ -1,7 +1,3 @@
-Here is the translated version of your request into English:
-
----
-
 # Urless
 
 Urless is a simple tool developed in Go to test potential vulnerabilities in URL paths. It progressively removes the paths from a URL, leaving only the domain and generating variations with different directory depths.
