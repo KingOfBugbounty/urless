@@ -56,7 +56,3 @@ https://another.com/x
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Feel free to ask if you need further adjustments!
