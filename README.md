@@ -9,7 +9,7 @@ Urless is a simple tool developed in Go to test potential vulnerabilities in URL
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/urless.git
+git clone https://github.com/KingOfBugbounty/urless.git
 cd urless
 go build -o urless
 ```
