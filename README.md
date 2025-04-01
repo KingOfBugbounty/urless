@@ -5,7 +5,7 @@ Urlextract is a simple tool developed in Go to test potential vulnerabilities in
 ## 📥 Installation
 
 ```bash
-git clone https://github.com/yourusername/urlextract.git
+git clone https://github.com/KingOfBugbounty/urlextract.git
 cd urlextract
 chmod +x urlextract
 ```
