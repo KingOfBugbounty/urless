@@ -1,2 +1,66 @@
-# urless
-URLess is a simple but powerful tool that removes paths from URLs, generating multiple variations of the base domain. This is useful for security testing, such as LFI (Local File Inclusion), path traversal, and directory fuzzing.
+Here is the translated version of your request into English:
+
+---
+
+# Urless
+
+Urless is a simple tool developed in Go to test potential vulnerabilities in URL paths. It progressively removes the paths from a URL, leaving only the domain and generating variations with different directory depths.
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/urless.git
+cd urless
+go build -o urless
+```
+
+## Usage
+
+Urless receives URLs via `stdin` and prints variations with different path levels.
+
+### Example Usage
+
+```bash
+echo "https://example.com/dir1/dir2/dir3" | ./urless
+```
+
+### Expected Output
+
+```
+https://example.com
+https://example.com/dir1/dir2/dir3
+https://example.com/dir1/dir2
+https://example.com/dir1
+```
+
+## Example with multiple URLs
+
+```bash
+cat urls.txt | ./urless
+```
+
+Where `urls.txt` contains:
+```
+https://site.com/a/b/c
+https://another.com/x/y/z
+```
+
+The output will be:
+```
+https://site.com
+https://site.com/a/b/c
+https://site.com/a/b
+https://site.com/a
+https://another.com
+https://another.com/x/y/z
+https://another.com/x/y
+https://another.com/x
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Feel free to ask if you need further adjustments!
