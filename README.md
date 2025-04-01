@@ -1,3 +1,7 @@
+Here is the updated README with the acknowledgment included inside the document:
+
+---
+
 # Urless
 
 Urless is a simple tool developed in Go to test potential vulnerabilities in URL paths. It progressively removes the paths from a URL, leaving only the domain and generating variations with different directory depths.
@@ -56,3 +60,11 @@ https://another.com/x
 ## License
 
 This project is licensed under the MIT License.
+
+## Acknowledgments
+
+A special thanks to @erickfernandox for the insightful vision and contribution to the development of this tool!
+
+---
+
+Let me know if you need further changes!
